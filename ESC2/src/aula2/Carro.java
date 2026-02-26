@@ -14,8 +14,12 @@ public class Carro {
 		}
 		Carro(String m){
 			this.marca = m;
+		}
+		Carro(String modelo, String marca){
+			this.modelo = modelo;
+			this.marca = marca;
+		}
 		
-		
-	}
+	
 
 }

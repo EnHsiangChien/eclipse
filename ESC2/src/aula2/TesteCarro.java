@@ -10,5 +10,9 @@ public class TesteCarro {
 		
 		Carro c2 = new Carro("Peugeout");
 		System.out.println(c2.marca);
+		
+		Carro c3 = new Carro("Gol","Volkswagen");
+		System.out.println("c3.modelo");
+		System.out.println();
 	}
 }
